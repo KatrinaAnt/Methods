@@ -10,7 +10,7 @@ export default class Character {
 
     static types = [
         'Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie'
-    ]
+    ];
 
     set name(value) {
         if(value.length <= 2 || value.length >= 10 || typeof value !== 'string') {
